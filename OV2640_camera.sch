@@ -1,0 +1,107 @@
+EESchema Schematic File Version 4
+LIBS:OV2640_camera-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x06_Top_Bottom J?
+U 1 1 5BF32228
+P 3050 2950
+F 0 "J?" H 3100 3250 50  0000 C CNN
+F 1 "PMOD" H 3100 2550 50  0000 C CNN
+F 2 "" H 3050 2950 50  0001 C CNN
+F 3 "~" H 3050 2950 50  0001 C CNN
+	1    3050 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2750 2800 2750
+Wire Wire Line
+	2850 2850 2800 2850
+Wire Wire Line
+	2850 2950 2800 2950
+Wire Wire Line
+	2850 3050 2800 3050
+Wire Wire Line
+	2850 3150 2800 3150
+Wire Wire Line
+	2850 3250 2800 3250
+Wire Wire Line
+	3350 2750 3400 2750
+Wire Wire Line
+	3350 2850 3400 2850
+Wire Wire Line
+	3350 2950 3400 2950
+Wire Wire Line
+	3350 3050 3400 3050
+Wire Wire Line
+	3350 3150 3400 3150
+Wire Wire Line
+	3350 3250 3400 3250
+$Comp
+L power:GND #PWR?
+U 1 1 5BF338E3
+P 2800 3150
+F 0 "#PWR?" H 2800 2900 50  0001 C CNN
+F 1 "GND" V 2800 3000 50  0000 R CNN
+F 2 "" H 2800 3150 50  0001 C CNN
+F 3 "" H 2800 3150 50  0001 C CNN
+	1    2800 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BF3394A
+P 3400 3150
+F 0 "#PWR?" H 3400 2900 50  0001 C CNN
+F 1 "GND" V 3400 3000 50  0000 R CNN
+F 2 "" H 3400 3150 50  0001 C CNN
+F 3 "" H 3400 3150 50  0001 C CNN
+	1    3400 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5BF343F8
+P 3400 3250
+F 0 "#PWR?" H 3400 3100 50  0001 C CNN
+F 1 "+3.3V" V 3400 3400 50  0000 L CNN
+F 2 "" H 3400 3250 50  0001 C CNN
+F 3 "" H 3400 3250 50  0001 C CNN
+	1    3400 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5BF34FB6
+P 2800 3250
+F 0 "#PWR?" H 2800 3100 50  0001 C CNN
+F 1 "+3.3V" V 2800 3400 50  0000 L CNN
+F 2 "" H 2800 3250 50  0001 C CNN
+F 3 "" H 2800 3250 50  0001 C CNN
+	1    2800 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Sensor_Optical_Extra:OV2640 U?
+U 1 1 5C0A2F02
+P 6900 3400
+F 0 "U?" H 7300 4150 50  0000 R CNN
+F 1 "OV2640" H 6900 2500 50  0000 C CNN
+F 2 "" H 6900 3400 50  0001 C CNN
+F 3 "" H 6900 3400 50  0001 C CNN
+	1    6900 3400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
